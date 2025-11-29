@@ -161,6 +161,11 @@ main {
     margin-bottom: 1rem;
 }
 
+.problem-item i {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
 .problem-item h3, .solution-item h3 {
     font-size: 1.4rem;
     color: var(--heading-color);
