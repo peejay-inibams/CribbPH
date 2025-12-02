@@ -156,11 +156,6 @@ main {
     transform: translateY(-5px);
 }
 
-.problem-item img {
-    max-width: 60px;
-    margin-bottom: 1rem;
-}
-
 .problem-item i {
     color: var(--primary-color);
     margin-bottom: 1rem;
@@ -220,35 +215,22 @@ main {
     opacity: 0.9;
 }
 
-.notify-form {
+
+.button-container {
     display: flex;
     justify-content: center;
-    gap: 0.5rem;
+    gap: 1rem;
+    flex-wrap: wrap;
 }
 
-.notify-form input {
-    padding: 1rem;
-    width: 300px;
-    border: none;
-    border-radius: var(--border-radius);
-    font-size: 1rem;
-    font-family: 'Poppins', sans-serif;
+.cta-section .cta-button {
+    background-color: var(--white-color);
+    color: var(--primary-color);
 }
 
-.notify-form button {
-    background-color: var(--heading-color);
-    color: var(--white-color);
-    padding: 1rem 2rem;
-    border: none;
-    border-radius: var(--border-radius);
-    cursor: pointer;
-    font-weight: 600;
-    font-size: 1rem;
-    transition: background-color 0.3s ease;
-}
-
-.notify-form button:hover {
-    background-color: #000;
+.cta-section .cta-button:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-2px);
 }
 
 footer {
@@ -363,19 +345,13 @@ footer {
         font-size: 2rem;
     }
 
-    .notify-form {
+    .button-container {
         flex-direction: column;
         align-items: center;
         width: 100%;
     }
 
-    .notify-form input {
-        width: 100%;
-        max-width: 400px;
-        text-align: center;
-    }
-
-    .notify-form button {
+    .cta-section .cta-button {
         width: 100%;
         max-width: 400px;
     }
